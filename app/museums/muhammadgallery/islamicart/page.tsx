@@ -1,5 +1,5 @@
 import React from 'react'
-import Section1 from "../../../../components/musumes/muhammadgallery/islamicgallery/Section1"
+import Section1 from "../../../../components/musumes/muhammadgallery/islamicart/Section1"
 const page = () => {
   return (
     <div>

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Section1 from "../../../../components/musumes/muhammadgallery/sasanianart/Section1"
 const page = () => {
   return (
     <div>
-      <h1>sasanian musuem</h1>
+      <Section1 />
     </div>
   )
 }

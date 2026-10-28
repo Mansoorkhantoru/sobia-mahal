@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Section1 from "../../components/shop/Section1"
 const page = () => {
   return (
     <div>
-      <h1>Shop route</h1>
+      <Section1 />
     </div>
   )
 }

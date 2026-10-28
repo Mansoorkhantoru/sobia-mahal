@@ -36,46 +36,23 @@ export default function MuhammadGallery() {
 
   const subMuseums: SubMuseum[] = [
     {
-      title: "Islamic Museums",
+      title: "Islamic Art",
       subtitle: "Islamic Art & Sacred Heritage",
       image: "/images/muhammadgallery.jpeg",
-      link: "/museums/muhammadgallery/islamicmuseums"
+      link: "/museums/muhammadgallery/islamicart"
     },
     {
-      title: "Sasanian Museum",
+      title: "Sasanian Art",
       subtitle: "Persian Antiquities & Artifacts",
       image: "/images/zahidbutkashmirmusuemtrust.jpeg",
       link: "/museums/muhammadgallery/sasanianart"
     },
     {
-      title: "Bacterian Museum",
+      title: "Bacterian Art",
       subtitle: "Ancient Greco-Bactrian Relics",
       image: "/images/Mohenjo-daro-Museum.jpeg",
-      link: "/museums/muhammadgallery/bacterienmuseum"
+      link: "/museums/muhammadgallery/bacterienart"
     }
-  ];
-
-  const artifacts: Artifact[] = [
-    {
-      title: "Ancient Calligraphy Manuscript",
-      category: "Islamic",
-      image: "/images/Gemini_Generated_Image_mfgo14mfgo14mfgo.jpg",
-    },
-    {
-      title: "Sasanian Coinage & Metalwork",
-      category: "Sasanian",
-      image: "/images/collections/calligraphy.jpg",
-    },
-    {
-      title: "Bacterian Bronze Antiquities",
-      category: "Bacterian",
-      image: "/images/collections/metalwork.jpg",
-    },
-    {
-      title: "Historic Illuminated Manuscripts",
-      category: "Islamic",
-      image: "/images/collections/manuscripts.jpg",
-    },
   ];
 
   return (
