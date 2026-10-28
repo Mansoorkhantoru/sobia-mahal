@@ -99,11 +99,11 @@ export default function Footer() {
             <ul className="space-y-2 text-xs text-gray-200 font-light">
               <li className="flex items-center gap-2">
                 <FaPhoneAlt className="text-amber-300 text-xs shrink-0" />
-                <span>+92 3004002620</span>
+                <span>+92 3275781404</span>
               </li>
               <li className="flex items-center gap-2">
                 <FaEnvelope className="text-amber-300 text-xs shrink-0" />
-                <span>info@sobiamahal.com</span>
+                <span>sobiamahal@softwayhub.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-amber-300 text-xs shrink-0" />
@@ -126,6 +126,21 @@ export default function Footer() {
           </div>
         </div>
 
+      </div>
+
+      {/* Organized By Section */}
+      <div className="text-center pt-6 mt-6 border-t border-white/10">
+        <p className="text-xs text-gray-300">
+          Organized by{' '}
+          <a 
+            href="https://softwayhub.com" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-amber-200 hover:underline font-medium"
+          >
+            Softway Hub
+          </a>
+        </p>
       </div>
     </footer>
   );

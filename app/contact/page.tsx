@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Section from "../../components/contact/Section"
 const page = () => {
   return (
     <div>
-      <h1>Contact page</h1>
+      <Section />
     </div>
   )
 }
