@@ -21,7 +21,7 @@ export default function OurCollections() {
         {/* Header Title & View All Button */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h2 className="text-3xl font-serif font-bold text-[#4a1515]">
+            <h2 className="text-3xl font-serif font-bold text-[#a33a74]">
               Our Collections
             </h2>
             <p className="text-sm text-gray-600 mt-1">
@@ -30,7 +30,7 @@ export default function OurCollections() {
           </div>
           <Link
             href="/collections"
-            className="bg-[#7b2323] hover:bg-[#621b1b] text-white text-xs font-semibold px-5 py-2.5 rounded-md shadow transition-all"
+            className="bg-[#a33a74] hover:bg-[#a33a98] text-white text-xs font-semibold px-5 py-2.5 rounded-md shadow transition-all"
           >
             View All →
           </Link>
@@ -87,7 +87,7 @@ export default function OurCollections() {
               </p>
               <Link
                 href="/events"
-                className="bg-[#7b2323] hover:bg-[#621b1b] text-white text-xs font-semibold px-5 py-2.5 rounded-md inline-flex items-center gap-2 shadow"
+                className="bg-[#a33a74] hover:bg-[#a33a98] text-white text-xs font-semibold px-5 py-2.5 rounded-md inline-flex items-center gap-2 shadow"
               >
                 Learn More →
               </Link>
@@ -104,7 +104,7 @@ export default function OurCollections() {
               </p>
               <Link
                 href="/about"
-                className="bg-[#7b2323] hover:bg-[#621b1b] text-white text-xs font-semibold px-5 py-2.5 rounded-md inline-flex items-center gap-2 shadow"
+                className="bg-[#a33a74] hover:bg-[#a33a94] text-white text-xs font-semibold px-5 py-2.5 rounded-md inline-flex items-center gap-2 shadow"
               >
                 Learn More →
               </Link>

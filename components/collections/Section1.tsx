@@ -56,12 +56,12 @@ export default function CollectionsPage() {
         <nav className="text-xs text-gray-500 mb-4 flex items-center gap-1.5">
           <Link href="/" className="hover:text-[#7b2323] transition-colors">Home</Link>
           <span>›</span>
-          <span className="text-[#7b2323] font-semibold">Collections</span>
+          <span className="text-[#a33a74] font-semibold">Collections</span>
         </nav>
 
         {/* Header Title */}
         <div className="text-center max-w-2xl mx-auto mb-8">
-          <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#4a1515] mb-2">
+          <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#a33a74] mb-2">
             Sobia Mahal Collections
           </h1>
           <p className="text-xs md:text-sm text-gray-600">
@@ -76,7 +76,7 @@ export default function CollectionsPage() {
               <button
                 key={cat.id}
                 onClick={() => scrollToSection(cat.id)}
-                className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white border border-amber-200 text-gray-700 hover:bg-[#7b2323] hover:text-white transition-all shadow-sm"
+                className="text-xs font-semibold px-3 py-1.5 rounded-full bg-white border border-amber-200 text-gray-700 hover:bg-[#a33a74] hover:text-white transition-all shadow-sm"
               >
                 {cat.name}
               </button>
@@ -93,7 +93,7 @@ export default function CollectionsPage() {
             return (
               <div key={cat.id} id={cat.id} className="scroll-mt-24 pt-4">
                 <div className="flex items-center gap-3 mb-4 border-b border-amber-200 pb-2">
-                  <h2 className="text-xl font-serif font-bold text-[#4a1515]">
+                  <h2 className="text-xl font-serif font-bold text-[#a33a74]">
                     {cat.name}
                   </h2>
                   <span className="text-xs text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full font-medium">

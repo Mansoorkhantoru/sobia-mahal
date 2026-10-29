@@ -14,7 +14,7 @@ export default function OurStoryPage() {
           <span>›</span>
           <Link href="/about" className="hover:text-[#7b2323] transition-colors">About</Link>
           <span>›</span>
-          <span className="text-[#7b2323] font-semibold">Our Story</span>
+          <span className="text-[#a33a74] font-semibold">Our Story</span>
         </nav>
 
         {/* Header Section */}
@@ -22,7 +22,7 @@ export default function OurStoryPage() {
           <span className="text-amber-800 text-xs font-bold uppercase tracking-widest bg-amber-100 px-3 py-1 rounded-full">
             Heritage & Passion
           </span>
-          <h1 className="text-3xl md:text-5xl font-serif font-bold text-[#4a1515] mt-3 mb-3">
+          <h1 className="text-3xl md:text-5xl font-serif font-bold text-[#a33a74] mt-3 mb-3">
             Our Story
           </h1>
           <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -98,7 +98,7 @@ export default function OurStoryPage() {
         <div className="mt-10 text-center">
           <Link
             href="/museums"
-            className="inline-flex items-center gap-2 bg-[#7b2323] hover:bg-[#621b1b] text-white text-xs font-semibold px-6 py-3 rounded-md shadow transition-all uppercase tracking-wider"
+            className="inline-flex items-center gap-2 bg-[#a33a74] hover:bg-[#a33a98] text-white text-xs font-semibold px-6 py-3 rounded-md shadow transition-all uppercase tracking-wider"
           >
             Explore Our Galleries →
           </Link>

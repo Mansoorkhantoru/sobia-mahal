@@ -49,7 +49,7 @@ export default function ContactPage() {
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       {/* Header Title */}
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <h1 className="text-4xl font-serif font-bold text-[#621b1b] tracking-wide">
+        <h1 className="text-4xl font-serif font-bold text-[#a33a74] tracking-wide">
           CONTACT US
         </h1>
         <p className="mt-2 text-sm text-gray-600 max-w-xl mx-auto">
@@ -61,7 +61,7 @@ export default function ContactPage() {
         
         {/* Left Side: Contact Information & Form */}
         <div className="bg-white rounded-xl shadow-md p-8 border border-gray-100">
-          <h2 className="text-2xl font-serif font-semibold text-[#621b1b] mb-6">
+          <h2 className="text-2xl font-serif font-semibold text-[#a33a74] mb-6">
             Send Us a Message
           </h2>
 
@@ -132,7 +132,7 @@ export default function ContactPage() {
               <button 
                 type="submit"
                 disabled={loading}
-                className="w-full py-3 bg-[#621b1b] text-white font-medium rounded-lg hover:bg-[#501515] transition-colors flex items-center justify-center gap-2 text-sm shadow-md disabled:opacity-50"
+                className="w-full py-3 bg-[#a33a74] text-white font-medium rounded-lg hover:bg-[#501515] transition-colors flex items-center justify-center gap-2 text-sm shadow-md disabled:opacity-50"
               >
                 <FaPaperPlane className="text-xs" /> {loading ? 'Sending...' : 'Send Message'}
               </button>
@@ -142,15 +142,15 @@ export default function ContactPage() {
           {/* Quick Contact Details */}
           <div className="mt-8 pt-6 border-t border-gray-100 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-gray-600">
             <div className="flex items-center gap-2">
-              <FaPhoneAlt className="text-[#621b1b] shrink-0" />
+              <FaPhoneAlt className="text-[#a33a74] shrink-0" />
               <span>+92 3275781404</span>
             </div>
             <div className="flex items-center gap-2">
-              <FaEnvelope className="text-[#621b1b] shrink-0" />
+              <FaEnvelope className="text-[#a33a74] shrink-0" />
               <span>sobiamahal@softwayhub.com</span>
             </div>
             <div className="flex items-center gap-2">
-              <FaMapMarkerAlt className="text-[#621b1b] shrink-0" />
+              <FaMapMarkerAlt className="text-[#a33a74] shrink-0" />
               <span>Sobia Mahal, Pakistan</span>
             </div>
           </div>
@@ -158,7 +158,7 @@ export default function ContactPage() {
 
         {/* Right Side: Google Maps Iframe */}
         <div className="bg-white rounded-xl shadow-md p-4 border border-gray-100 flex flex-col">
-          <h2 className="text-2xl font-serif font-semibold text-[#621b1b] mb-4 px-2">
+          <h2 className="text-2xl font-serif font-semibold text-[#a33a74] mb-4 px-2">
             Our Location
           </h2>
           <div className="w-full flex-grow min-h-[400px] rounded-lg overflow-hidden border border-gray-200">

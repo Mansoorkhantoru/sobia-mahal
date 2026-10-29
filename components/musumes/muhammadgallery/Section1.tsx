@@ -65,7 +65,7 @@ export default function MuhammadGallery() {
           <span>›</span>
           <Link href="/museums" className="hover:text-[#7b2323] transition-colors">Museums</Link>
           <span>›</span>
-          <span className="text-[#7b2323] font-semibold">Muhammad Gallery</span>
+          <span className="text-[#a33a74] font-semibold">Muhammad Gallery</span>
         </nav>
 
         {/* Hero Banner Slider using <img> tag so it doesn't zoom/crop awkwardly */}
@@ -112,7 +112,7 @@ export default function MuhammadGallery() {
         {/* Sub-Pages / Categories Section */}
         <div className="mb-8">
           <div className="text-center max-w-xl mx-auto mb-4">
-            <h2 className="text-xl font-serif font-bold text-[#4a1515]">
+            <h2 className="text-xl font-serif font-bold text-[#a33a74]">
               Explore Gallery Collections
             </h2>
             <p className="text-xs text-gray-600 mt-0.5">
@@ -150,7 +150,7 @@ export default function MuhammadGallery() {
                 <div className="p-4 pt-0">
                   <Link
                     href={sub.link}
-                    className="inline-flex items-center gap-1 text-xs font-bold text-[#7b2323] hover:text-[#9c2d2d] uppercase tracking-wider transition-colors"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-[#a33a74] hover:text-[#a33a98] uppercase tracking-wider transition-colors"
                   >
                     View Collection →
                   </Link>
@@ -182,7 +182,7 @@ export default function MuhammadGallery() {
         <div className="text-center">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 bg-[#7b2323] hover:bg-[#621b1b] text-white text-xs font-semibold px-6 py-2.5 rounded-md shadow transition-all uppercase tracking-wider"
+            className="inline-flex items-center gap-2 bg-[#a33a74] hover:bg-[#a33a98] text-white text-xs font-semibold px-6 py-2.5 rounded-md shadow transition-all uppercase tracking-wider"
           >
             Plan a Visit →
           </Link>

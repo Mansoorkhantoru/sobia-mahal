@@ -80,7 +80,7 @@ export default function AboutPage() {
 
           <Link
             href="/about/story"
-            className="inline-flex items-center gap-4 rounded-lg bg-[#792c4c] px-6 py-4 text-sm font-semibold text-white transition hover:bg-[#542039]"
+            className="inline-flex items-center gap-4 rounded-lg bg-[#a33a74] px-6 py-4 text-sm font-semibold text-white transition hover:bg-[#a33a98]"
           >
             Read Full Story <span>→</span>
           </Link>
@@ -150,7 +150,7 @@ export default function AboutPage() {
 
         <Link
           href="/#visit"
-          className="inline-flex items-center gap-3 rounded-lg bg-[#792c4c] px-6 py-4 text-sm font-semibold text-white transition hover:bg-[#542039]"
+          className="inline-flex items-center gap-3 rounded-lg bg-[#a33a74] px-6 py-4 text-sm font-semibold text-white transition hover:bg-[#a33a98]"
         >
           Discover Sobia Mahal →
         </Link>

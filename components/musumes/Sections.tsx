@@ -35,7 +35,7 @@ export default function MuseumsPage() {
         
         {/* Page Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#4a1515] mb-3">
+          <h1 className="text-4xl md:text-5xl font-serif font-bold text-[#a33a74] mb-3">
             Our Museums
           </h1>
           <p className="text-sm md:text-base text-gray-600 tracking-wide">
@@ -69,7 +69,7 @@ export default function MuseumsPage() {
                 </p>
                 <Link
                   href={museum.link}
-                  className="inline-flex items-center gap-1.5 text-xs font-bold text-[#7b2323] hover:text-[#9c2d2d] uppercase tracking-wider"
+                  className="inline-flex items-center gap-1.5 text-xs font-bold text-[#a33a74] hover:text-[#a33a98] uppercase tracking-wider"
                 >
                   Explore →
                 </Link>

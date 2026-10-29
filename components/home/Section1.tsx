@@ -60,13 +60,13 @@ export default function Section1() {
           <div className="flex flex-wrap items-center justify-start gap-4">
             <Link
               href="/museums"
-              className="bg-[#7b2323] hover:bg-[#621b1b] text-white px-6 py-3 rounded-md text-sm font-medium transition-all shadow-lg flex items-center gap-2"
+              className="bg-[#a33a74] hover:bg-[#a33a74] text-white px-6 py-3 rounded-md text-sm font-medium transition-all shadow-lg flex items-center gap-2"
             >
               Explore Museums →
             </Link>
             <Link
               href="/visit"
-              className="bg-[#d4af37] hover:bg-[#c29e2f] text-gray-900 px-6 py-3 rounded-md text-sm font-semibold transition-all shadow-lg flex items-center gap-2"
+              className="bg-[#e4eace] hover:bg-[#c29e2f] text-gray-900 px-6 py-3 rounded-md text-sm font-semibold transition-all shadow-lg flex items-center gap-2"
             >
               Plan a Visit →
             </Link>

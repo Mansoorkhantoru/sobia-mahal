@@ -19,7 +19,7 @@ export default function MohenjodaroMuseum() {
           <span>›</span>
           <Link href="/museums" className="hover:text-[#7b2323]">Museums</Link>
           <span>›</span>
-          <span className="text-[#7b2323] font-semibold">Mohenjo-daro Museum</span>
+          <span className="text-[#a33a74] font-semibold">Mohenjo-daro Museum</span>
         </nav>
 
         {/* Hero Image */}
@@ -33,7 +33,7 @@ export default function MohenjodaroMuseum() {
 
         {/* Title & Subtitle */}
         <div className="text-center max-w-3xl mx-auto mb-8">
-          <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#4a1515] mb-2">
+          <h1 className="text-3xl md:text-4xl font-serif font-bold text-[#a33a74] mb-2">
             Mohenjo-daro Museum
           </h1>
           <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
@@ -43,10 +43,10 @@ export default function MohenjodaroMuseum() {
 
         {/* Navigation Tabs */}
         <div className="flex justify-center items-center gap-4 border-b border-amber-200/80 mb-8 pb-3 text-xs md:text-sm font-semibold text-gray-600">
-          <button className="text-[#7b2323] border-b-2 border-[#7b2323] pb-3 -mb-3 font-bold">Overview</button>
-          <button className="hover:text-[#7b2323] transition-colors">Highlights</button>
-          <button className="hover:text-[#7b2323] transition-colors">Gallery</button>
-          <button className="hover:text-[#7b2323] transition-colors">Visitor Info</button>
+          <button className="text-[#a33a74] border-b-2 border-[#7b2323] pb-3 -mb-3 font-bold">Overview</button>
+          <button className="hover:text-[#a33a74] transition-colors">Highlights</button>
+          <button className="hover:text-[#a33a74] transition-colors">Gallery</button>
+          <button className="hover:text-[#a33a74] transition-colors">Visitor Info</button>
         </div>
 
         {/* Artifacts Grid */}
@@ -62,7 +62,7 @@ export default function MohenjodaroMuseum() {
         <div className="text-center">
           <Link
             href="/visit"
-            className="inline-flex items-center gap-2 bg-[#7b2323] hover:bg-[#621b1b] text-white text-xs font-semibold px-8 py-3 rounded-md shadow transition-all"
+            className="inline-flex items-center gap-2 bg-[#a33a74] hover:bg-[#a33a98] text-white text-xs font-semibold px-8 py-3 rounded-md shadow transition-all"
           >
             Plan a Visit →
           </Link>

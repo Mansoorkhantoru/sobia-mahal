@@ -14,7 +14,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#621b1b] text-white pt-10 pb-6 border-t border-[#7b2323]">
+    <footer className="w-full bg-[#a33a74] text-white pt-10 pb-6 border-t border-[#a33a74]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Content */}
