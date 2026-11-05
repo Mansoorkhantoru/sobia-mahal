@@ -1,6 +1,7 @@
-import type { NextConfig } from "next";
+/**@type {import('next').NextConfig} */
+// import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   /* config options here */
   experimental: {
     agentFeedback: true,
