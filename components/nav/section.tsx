@@ -23,11 +23,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* 1. BRAND LOGO & TITLE */}
           <Link href="/" className="flex items-center gap-3 group">
-            {/* Logo Emblem Icon */}
+        
             <div className="w-10 h-10 rounded-full bg-[#a33a74] text-amber-300 flex items-center justify-center font-serif text-xl font-bold shadow-sm group-hover:scale-105 transition-transform">
-              <img src={"/1000197654.png"} alt="" />
+              <img src={"/logo/logo.webp"} alt="" />
             </div>
             <div>
               <h1 className="font-serif text-xl md:text-2xl font-bold text-gray-900 tracking-wide">

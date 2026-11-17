@@ -20,16 +20,14 @@ const Section1: React.FC = () => {
 
   // WhatsApp par direct redirect karne ka function
   const handleWhatsAppBuy = (img: ImageData) => {
-    const phoneNumber = "92319687096"; // Yahan apna WhatsApp number likhein (e.g., 923001234567)
+    const phoneNumber = "923275781404"; 
     const message = encodeURIComponent(`Hello, main yeh Islamic Art product khareedna chahta hoon:\n\nProduct ID: ${img.id}\nImage Link: ${window.location.origin}${img.url}`);
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
   };
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1 style={{
-        textAlign: 'center', fontSize: '35px'
-      }}>ISLAMIC ART</h1>
+      <h1 style={{ textAlign: 'center', fontSize: '35px' }}>ISLAMIC ART</h1>
       
       {/* Images Grid */}
       <div style={{ 
@@ -49,11 +47,23 @@ const Section1: React.FC = () => {
               backgroundColor: '#fff'
             }}
           >
-            <img 
-              src={img.url} 
-              alt={img.title} 
-              style={{ width: '100%', height: '280px', objectFit: 'cover', borderRadius: '4px', padding: '5px' }} 
-            />
+            {/* Image wrapper taake zoom hone par image card se bahar na nikle */}
+            <div style={{ overflow: 'hidden', borderRadius: '4px', margin: '5px' }}>
+              <img 
+                src={img.url} 
+                alt={img.title} 
+                style={{ 
+                  width: '100%', 
+                  height: '280px', 
+                  objectFit: 'cover', 
+                  display: 'block',
+                  transition: 'transform 0.35s ease',
+                  cursor: 'pointer'
+                }} 
+                onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.28)')}
+                onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1.28)')}
+              />
+            </div>
             
             {/* Title ki jagah WhatsApp Button / Icon */}
             <button 
@@ -75,6 +85,8 @@ const Section1: React.FC = () => {
                 gap: '8px',
                 transition: 'background-color 0.2s'
               }}
+              onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#1ebe57')}
+              onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#25D366')}
             >
               {/* WhatsApp SVG Icon */}
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
