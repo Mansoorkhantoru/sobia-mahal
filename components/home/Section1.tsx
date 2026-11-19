@@ -116,9 +116,12 @@ export default function Section1() {
       </section>
 
       {/* 2. MUSEUMS MARQUEE SECTION */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-70px] relative z-20">
+      <section
+        dir="ltr"
+        className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-[-70px] relative z-20"
+      >
         <div className="overflow-hidden py-4 marquee-wrapper">
-          <div className="flex gap-6 w-max animate-marquee">
+          <div className="flex flex-row gap-6 w-max animate-marquee">
             {marqueeItems.map((museum, index) => (
               <div 
                 key={index} 
@@ -147,7 +150,7 @@ export default function Section1() {
                   </p>
                   <Link
                     href={museum.link}
-                    className="text-xs font-bold text-[#7b2323] hover:text-[#5a1919] hover:text-xl inline-flex items-center gap-1.5 uppercase tracking-wider group/link"
+                    className="text-xs font-bold text-[#7b2323] hover:text-[#5a1919] inline-flex items-center gap-1.5 uppercase tracking-wider group/link"
                   >
                     <span>Explore</span>
                     <span className="transition-transform duration-300 group-hover/link:translate-x-1.5">→</span>
@@ -163,14 +166,15 @@ export default function Section1() {
       <style jsx>{`
         @keyframes marquee {
           0% {
-            transform: translateX(0%);
+            transform: translate3d(0%, 0, 0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translate3d(-50%, 0, 0);
           }
         }
         .animate-marquee {
           animation: marquee 25s linear infinite;
+          will-change: transform;
         }
         .marquee-wrapper:hover .animate-marquee {
           animation-play-state: paused;

@@ -47,8 +47,8 @@ export default function OurCollections() {
         </div>
 
         {/* Categories Infinite Marquee Row */}
-        <div className="overflow-hidden py-3 mb-12 marquee-wrapper">
-          <div className="flex gap-8 w-max animate-marquee">
+        <div dir="ltr" className="overflow-hidden py-3 mb-12 marquee-wrapper">
+          <div className="flex flex-row gap-8 w-max animate-marquee">
             {marqueeCategories.map((cat: any, idx) => (
               <Link
                 key={idx}
@@ -131,14 +131,15 @@ export default function OurCollections() {
       <style jsx>{`
         @keyframes marquee {
           0% {
-            transform: translateX(0%);
+            transform: translate3d(0%, 0, 0);
           }
           100% {
-            transform: translateX(-50%);
+            transform: translate3d(-50%, 0, 0);
           }
         }
         .animate-marquee {
           animation: marquee 22s linear infinite;
+          will-change: transform;
         }
         .marquee-wrapper:hover .animate-marquee {
           animation-play-state: paused;
