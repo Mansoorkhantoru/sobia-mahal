@@ -1,11 +1,11 @@
-import React from 'react'
-import Section from "../../../components/musumes/muhammadgallery/Section1"
+import React from "react";
+import Section from "../../../components/musumes/muhammadgallery/Section1";
 const page = () => {
   return (
     <div>
-        <Section />
+      <Section />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;
